@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+
+    table{
+        width: 30rem;
+    }
+
+    table, th, tr, td{
+        border: 0.5px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding: 0.5em 1.5em;
+    }
+    .user-dp-container{
+        width: 3rem;
+        height: 3.5rem;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25em;
+    }
+</style>
+
+
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl No</th>
+                <th>Student Name</th>
+                <th>Session</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+
+
+                <td class="container">
+                    <span class="user-dp-container left">
+                        <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60" alt="User-DP">
+                    </span>
+                    <span class="right">
+                        <h4>Dennis Ritchie</h4>
+                        <p>dennis.ritchie@hotmail.com</p>
+                    </span>
+                </td>
+
+
+
+                <td>2022 - 2023</td>
+            </tr>
+            <tr>
+                <td>1</td>
+
+
+                <td class="container">
+                    <span class="user-dp-container left">
+                        <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60" alt="User-DP">
+                    </span>
+                    <span class="right">
+                        <h4>Dennis Ritchie</h4>
+                        <p>dennis.ritchie@hotmail.com</p>
+                    </span>
+                </td>
+
+                <td>2022 - 2023</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<input type="radio" name="sports" id="" value="footal">
+<label for="">Footbal</label>
+<input type="radio" name="sports" id="" value="Cricket">
+<label for="">Cricket</label>
+<input type="radio" name="sports" id="" value="Rugby">
+<label for="">Rugby</label>
+
+
+<select name="" id="">
+    <option selected>Select City</option>
+    <option value="Kolkata">Kolkata</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Delhi">Delhi</option>
+</select>
+
+
+</body>
+
+</html>
